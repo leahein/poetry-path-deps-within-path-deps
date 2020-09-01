@@ -1,0 +1,39 @@
+[[package]]
+category = "main"
+description = ""
+develop = true
+name = "my-lib-1"
+optional = false
+python-versions = "^3.7"
+version = "0.1.0"
+
+[package.dependencies]
+my-lib-2 = "0.1.0"
+
+[package.source]
+reference = ""
+type = "directory"
+url = "lib/my-lib-1"
+
+[[package]]
+category = "main"
+description = ""
+develop = true
+name = "my-lib-2"
+optional = false
+python-versions = "^3.7"
+version = "0.1.0"
+
+[package.source]
+reference = ""
+type = "directory"
+url = "lib/my-lib-1/lib/my-lib-2"
+
+[metadata]
+content-hash = "3870bcedace475a440f4f500431fba8bee31442b790c00e0b6598ac9975533e3"
+lock-version = "1.0"
+python-versions = "^3.7"
+
+[metadata.files]
+my-lib-1 = []
+my-lib-2 = []

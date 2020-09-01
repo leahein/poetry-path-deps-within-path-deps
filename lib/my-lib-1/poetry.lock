@@ -1,0 +1,21 @@
+[[package]]
+category = "main"
+description = ""
+develop = true
+name = "my-lib-2"
+optional = false
+python-versions = "^3.7"
+version = "0.1.0"
+
+[package.source]
+reference = ""
+type = "directory"
+url = "lib/my-lib-2"
+
+[metadata]
+content-hash = "ac157cbf072f32a9bf51fb7f186f12e5d2479e04d33bbfd1079fb40c618164ac"
+lock-version = "1.0"
+python-versions = "^3.7"
+
+[metadata.files]
+my-lib-2 = []
